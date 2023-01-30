@@ -43,6 +43,7 @@ namespace Fraction_Programming
             Fraction_Programming.Fraction f4 = fraction1.divide(fraction2);
             Console.WriteLine("Divide two fraction: ");
             f4.displayFraction();
+            Console.Read();
         }
     }
 }

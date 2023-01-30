@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced_Programming--1651", "Advanced_Programming--1651\Advanced_Programming--1651.csproj", "{1836EB46-3749-469D-BB6C-971897D84670}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student_Programming", "Student_Programming\Student_Programming.csproj", "{2BB6DBFA-C253-4600-B272-63DB6CAB81E8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Song_Programming", "Song_Programming\Song_Programming.csproj", "{040DE61C-A29C-41EA-AC16-E78544859315}"
@@ -19,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1836EB46-3749-469D-BB6C-971897D84670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1836EB46-3749-469D-BB6C-971897D84670}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1836EB46-3749-469D-BB6C-971897D84670}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1836EB46-3749-469D-BB6C-971897D84670}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2BB6DBFA-C253-4600-B272-63DB6CAB81E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2BB6DBFA-C253-4600-B272-63DB6CAB81E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BB6DBFA-C253-4600-B272-63DB6CAB81E8}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -16,7 +16,7 @@ namespace Student_Programming
             Console.Write("Enter the GPA of that student: ");
             stu.Gpa = double.Parse(Console.ReadLine());
             Console.WriteLine(stu);
-
+            Console.Read();
         }
     }
 }
