@@ -10,7 +10,7 @@ namespace HW_6._2._2023_Task1
             cat1.Run();
             cat1.Eat();
             cat1.Climb();
-            Console.Readline();
+            Console.Read();
         }
     }
 }
