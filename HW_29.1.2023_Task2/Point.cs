@@ -2,16 +2,16 @@
 {
     internal class Point
     {
-        public int _x;
-        public int _y;
+        public int X { get; set; }
+        public int Y { get; set; }
+        public Point()
+        {
+
+        }
         public Point(int x, int y)
         {
-            _x = x;
-            _y = y;
+            X = x;
+            Y = y;
         }
-
-
-
-
     }
 }

@@ -2,20 +2,20 @@
 {
     internal class Rectangle
     {
-        private int _topLeft;
-        private int _bottomRight;
-        public Rectangle(int topLeft, int bottomRight)
+        public Point TopLeft { get; set; }
+        public Point BottomRight { get; set; }
+        public Rectangle(Point topLeft, Point bottomRight)
         {
-            _topLeft = topLeft;
-            _bottomRight = bottomRight;
+            TopLeft = topLeft;
+            BottomRight = bottomRight;
         }
+
         public bool Contains(Point point)
         {
-            if (_bottomRight > point._x || _topLeft > point._y)
-            {
-                return false;
-            }
-            return true;
+            bool isInHorizontal = this.TopLeft.X <= point.X && this.BottomRight.X >= point.X;
+            bool isInVertical = this.TopLeft.Y <= point.Y && this.BottomRight.Y >= point.Y;
+            bool isInRectangle = isInHorizontal && isInVertical;
+            return isInRectangle;
         }
 
     }
